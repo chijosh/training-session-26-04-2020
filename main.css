@@ -82,7 +82,7 @@ img {
   font-weight: bold;
   font-size: 20px;
   line-height: 102%;
-  color: #635a5a;
+  color: #1a3140;
   margin-left: 30px;
   cursor: pointer;
   background-color: transparent;
@@ -130,26 +130,24 @@ img {
   }
 
   .btn {
-    padding: 8px 25px;
+    padding: 18px 45px;
   }
 
   .btn-cta {
-    padding: 8px 25px;
-    margin-bottom: 20px;
-    margin-left: 5px;
+    padding: 18px 45px;
+    margin-bottom: 30px;
+    margin-left: 15px;
   }
 }
 
-
 @media screen and (max-width: 375px) {
-    .hero-section {
+  .hero-section {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 5vw;
     padding-right: 5vw;
     margin: 0 auto;
   }
-
 
   .hero-flexbox {
     display: flex;
@@ -168,5 +166,20 @@ img {
   .right-section {
     position: static;
     margin: 0 auto;
-    
+  }
+
+  img {
+    height: 241px;
+    width: 320px;
+  }
+
+  .btn {
+    padding: 12px 35px;
+  }
+
+  .btn-cta {
+    padding: 12px 35px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+  }
 }
